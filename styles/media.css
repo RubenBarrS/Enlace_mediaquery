@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1024px) {
+  #cuatro{
+  	display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #cuatro{
+  	display: none;
+  }
+  #tres{
+  	display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #cuatro{
+  	display: none;
+  }
+  #tres{
+  	display: none;
+  }
+  #dos{
+  	display: none;
+  }
+}
+
+body{
+	background: skyblue;
+}
+
+li{
+	display: inline;
+}
+
+li>a{
+	text-decoration:none;
+	background-color: #f0f0f0;
+	padding: 10px;
+	color: black;
+}
+
+li>a:hover{
+	background-color: yellow;
+	color: blue;
+}
